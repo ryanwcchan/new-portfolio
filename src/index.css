@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .underline-animation {
+    @apply relative;
+  }
+
+  .underline-animation::after {
+    @apply absolute content-[''] w-full h-[3px] left-0 bottom-[-4px] 
+    bg-slate-800 scale-x-0 hover:scale-x-100 transition-transform 
+    duration-300 origin-bottom-left;
+  }
+
+  .dark .underline-animation::after {
+    @apply absolute content-[''] w-full h-[3px] left-0 bottom-[-4px] 
+    bg-white scale-x-0 hover:scale-x-100 transition-transform 
+    duration-300 origin-bottom-left;
+  }
+}
+
+body {
+  background-color: rgb(255, 250, 250);
+}
+
+.dark body {
+  background-color: rgb(0, 24, 51);
+  color: white;
+}
