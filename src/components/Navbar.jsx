@@ -29,7 +29,7 @@ export default function Navbar() {
     }
   }
   return (
-    <nav className="flex justify-between p-10">
+    <nav className="flex justify-between p-10 sticky top-0 z-10 navbar">
       <div className="flex items-center gap-4">
         <Link to={"/"}>
           <div className="border-2 border-white dark:border-800">

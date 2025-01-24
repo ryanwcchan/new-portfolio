@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function ProjectsPage() {
   return (
-    <div className="flex flex-col gap-2 justify-center items-center w-full">
+    <div className="flex flex-col space-y-10 justify-center items-center w-full">
       <h1 className="text-3xl">Projects</h1>
       <div className="flex flex-col gap-4 w-full flex-1">
         <ProjectCard
