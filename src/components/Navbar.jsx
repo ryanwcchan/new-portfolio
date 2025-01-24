@@ -32,11 +32,11 @@ export default function Navbar() {
     <nav className="flex justify-between p-10">
       <div className="flex items-center gap-4">
         <Link to={"/"}>
-          <div className="">
+          <div className="border-2 border-white dark:border-800">
             <img
               src="logo-cropped.png"
               alt="logo"
-              className="w-10 h-10 object-cover rounded-full"
+              className="w-10 h-10 object-cover"
             />
           </div>
         </Link>

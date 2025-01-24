@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col w-full h-full p-10 lg:pl-40">
+      <main className="flex flex-col w-full h-full">
         <Outlet />
       </main>
     </>
