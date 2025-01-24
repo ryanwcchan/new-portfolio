@@ -41,7 +41,9 @@ export default function Navbar() {
           </div>
         </Link>
         <Link to={"/"}>
-          <div className="text-2xl underline-animation">Ryan Chan</div>
+          <div className="text-3xl font-bold underline-animation">
+            Ryan Chan
+          </div>
         </Link>
       </div>
       <div className="flex items-center gap-4">

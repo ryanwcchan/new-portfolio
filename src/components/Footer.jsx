@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer
-      className="sticky bottom-0 footer p-4 flex gap-2
+      className="footer p-4 flex gap-2
     justify-center items-center"
     >
       <h1>
