@@ -11,7 +11,7 @@ export default function HomePage() {
       <Skills />
       <div className="flex flex-col justify-center p-10 w-full">
         <div className="flex flex-col justify-center gap-6 max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold text-white">Projects</h2>
+          <h2 className="text-4xl font-semibold dark:text-white">Projects</h2>
           <div className="flex flex-col justify-center items-center gap-6 flex-wrap">
             <ProjectCard
               title={"Project 1"}

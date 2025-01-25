@@ -1,8 +1,8 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col min-h-screen items-center w-full">
+    <div className="flex flex-col min-h-screen items-center w-full justify-center">
       <div className="flex flex-col justify-center items-center">
-        <img src="RYAN CHAN.svg" alt="Name title" className="font-2xl" />
+        {/* <img src="RYAN CHAN.svg" alt="Name title" className="font-2xl" /> */}
         <h1 className="text-6xl font-bold text-center">
           Full-Stack Web Developer
         </h1>

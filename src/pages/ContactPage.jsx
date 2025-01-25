@@ -21,7 +21,7 @@ Card.propTypes = {
 
 export default function ContactPage() {
   return (
-    <div className="w-full">
+    <div className="my-auto w-full">
       <div className="flex flex-col justify-center items-center gap-4">
         <h1 className="text-3xl font-semibold">Get in touch with me!</h1>
         <div className="flex flex-col justify-center gap-4">
