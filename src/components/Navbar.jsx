@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [theme, setTheme] = useState("light");
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") || "dark";
@@ -46,8 +47,10 @@ export default function Navbar() {
           </div>
         </Link>
       </div>
-      <div className="flex items-center gap-4">
-        <ul className="flex gap-6 text-2xl ">
+
+      {/* Desktop menu */}
+      <div className="items-center gap-4 hidden lg:flex">
+        <ul className="flex gap-6 text-2xl">
           <Link to="/">
             <li className="underline-animation">Home</li>
           </Link>
@@ -66,6 +69,11 @@ export default function Navbar() {
           ></i>
         </button>
       </div>
+
+      <button className="text-4xl lg:hidden">☰</button>
+
+      {/* Mobile menu */}
+      <div className="hidden"></div>
     </nav>
   );
 }

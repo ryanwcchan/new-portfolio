@@ -8,22 +8,19 @@ export default function ProjectCard({ title, img, right }) {
   };
 
   return (
-    <div className="flex justify-center items-center gap-4 w-full flex-1">
-      {right ? (
-        <>
-          <div className="flex flex-col justify-center items-center w-1/3">
-            <h1 className="text-2xl">{title}</h1>
-          </div>
-          <img src={img} className="w-2/3" alt="Project image" />
-        </>
-      ) : (
-        <>
-          <img src={img} className="w-2/3" alt="Project image" />
-          <div className="flex flex-col justify-center items-center w-1/3">
-            <h1 className="text-2xl">{title}</h1>
-          </div>
-        </>
-      )}
+    <div className="flex justify-center items-center gap-4 w-full flex-1 text-white">
+      <div
+        className={`flex flex-col justify-center items-center w-1/3 ${
+          right ? "order-1" : "order-2"
+        }`}
+      >
+        <h1 className="text-2xl">{title}</h1>
+      </div>
+      <img
+        src={img}
+        className={`w-2/3 rounded-lg ${right ? "order-2" : "order-1"}`}
+        alt="Project image"
+      />
     </div>
   );
 }
