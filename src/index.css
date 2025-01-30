@@ -73,6 +73,17 @@ body {
   background-position: 50% 30%;
 }
 
+.subtle-prism {
+  background-color: #222728;
+  background-image: url("subtle-prism.svg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hero-section {
+  background-image: url("cool-background.png");
+}
+
 @media screen and (max-width: 400px) {
   .intro-section {
     width: 100%;

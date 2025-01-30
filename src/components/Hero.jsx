@@ -1,9 +1,16 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col min-h-screen items-center w-full justify-center">
-      <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col min-h-screen items-center w-full justify-center hero-section">
+      <div className="flex flex-col justify-center items-center gap-6 rounded-lg p-10">
         {/* <img src="RYAN CHAN.svg" alt="Name title" className="font-2xl" /> */}
-        <h1 className="text-6xl font-bold text-center">
+
+        <div className="">
+          <img src="logo-cropped.png" alt="Logo" className="w-24" />
+        </div>
+        <h1 className="text-6xl font-bold text-center bg-black text-white px-4">
+          RYAN<span className="text-red-400">.</span>CHAN
+        </h1>
+        <h1 className="text-6xl font-bold text-center text-white bg-black py-2 px-4">
           Full-Stack Web Developer
         </h1>
       </div>

@@ -8,7 +8,7 @@ export default function ProjectCard({ title, img, right }) {
   };
 
   return (
-    <div className="flex justify-center items-center gap-4 w-full flex-1 dark:text-white">
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-4 w-full flex-1 dark:text-white">
       <div
         className={`flex flex-col justify-center items-center w-1/3 ${
           right ? "order-1" : "order-2"

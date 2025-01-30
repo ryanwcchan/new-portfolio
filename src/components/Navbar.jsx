@@ -80,7 +80,7 @@ export default function Navbar() {
       </button>
 
       {/* Background overlay */}
-      {!isOpen && (
+      {isOpen && (
         <div
           onClick={toggleMenu}
           className="fixed inset-0 bg-black/50 z-40"
@@ -90,7 +90,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       <div
         className={`${
-          isOpen ? "translate-x-[150%]" : "translate-x-0"
+          isOpen ? "translate-x-0" : "translate-x-[150%]"
         } fixed top-0 right-0 h-screen bg-white dark:bg-gray-900 justify-center items-center w-full sm:w-2/3 z-50 ease-in-out duration-300`}
       >
         <div onClick={toggleMenu} className="bg-white w-16 m-4">
