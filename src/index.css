@@ -82,13 +82,13 @@ body {
 
 .subtle-prism {
   background-color: #222728;
-  background-image: url("subtle-prism.svg");
+  background-image: url("/subtle-prism.svg");
   background-attachment: fixed;
   background-size: cover;
 }
 
 .hero-section {
-  background-image: url("cool-background.png");
+  background-image: url("/cool-background.png");
 }
 
 html {
