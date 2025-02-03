@@ -3,6 +3,7 @@ import Intro from "../components/Intro";
 import Projects from "../components/Projects";
 import Hero from "../components/Hero";
 import Contact from "../components/Contact";
+import Interests from "../components/Interests";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Contact />
 
       {/* Interests */}
+      <Interests />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "dark";
+    const savedTheme = localStorage.getItem("theme") || "light";
     if (savedTheme) {
       setTheme(savedTheme);
 
@@ -47,7 +47,7 @@ export default function Navbar() {
           </div>
         </Link>
         <Link to={"/"}>
-          <div className="text-3xl font-bold underline-animation">
+          <div className="text-4xl font-bold underline-animation">
             Ryan Chan
           </div>
         </Link>
@@ -55,16 +55,16 @@ export default function Navbar() {
 
       {/* Desktop menu */}
       <div className="items-center gap-4 hidden md:flex">
-        <ul className="flex gap-6 text-2xl">
-          <Link to="/">
+        <ul className="flex gap-6 text-4xl">
+          <a href="#hero">
             <li className="underline-animation">Home</li>
-          </Link>
-          <Link to="/projects">
+          </a>
+          <a href="#projects">
             <li className="underline-animation">Projects</li>
-          </Link>
-          <Link to="/contact">
+          </a>
+          <a href="#contact">
             <li className="underline-animation">Contact</li>
-          </Link>
+          </a>
         </ul>
         <button onClick={toggleTheme} className="px-4 w-10">
           <i
@@ -106,15 +106,15 @@ export default function Navbar() {
         </div>
         <div className="flex flex-col gap-4 p-10">
           <ul className="flex flex-col gap-6 text-4xl">
-            <Link to="/">
+            <a href="#hero">
               <li className="underline-animation">Home</li>
-            </Link>
-            <Link to="/projects">
+            </a>
+            <a href="#projects">
               <li className="underline-animation">Projects</li>
-            </Link>
-            <Link to="/contact">
+            </a>
+            <a href="#contact">
               <li className="underline-animation">Contact</li>
-            </Link>
+            </a>
           </ul>
           <button
             onClick={toggleTheme}
