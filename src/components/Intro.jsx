@@ -18,10 +18,10 @@ export default function Intro() {
                 font-semibold text-2xl lg:border-l-4 border-white bg-black 
                 rounded-lg text-pretty"
           >
-            I&apos;m Ryan, a self-taughtfull-stack web developer from{" "}
+            I&apos;m Ryan, a self-taught full-stack web developer from{" "}
             <span className="text-red-600">Toronto, Canada</span> who is
             passionate about building web applications, solving problems and
-            challenging myself.
+            continuously learning new things.
           </p>
         </div>
       </div>

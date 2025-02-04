@@ -10,21 +10,38 @@ export default function Interests() {
         <h2 className="text-3xl font-semibold text-blue-400 dark:text-blue-200">
           Health & Wellness
         </h2>
-        <p className="text-2xl">I enjoy fitness and healthy lifestyle</p>
+        <p className="text-2xl">
+          I enjoy strength training, calisthenics, and cardio. I challenge
+          myself by learning new movements through continuous practice, aiming
+          to improve my mobility, strength, and endurance.
+        </p>
+        <video className="pt-4" controls>
+          <source src="FLIX3599.MP4" />
+        </video>
+        <p className="text-2xl py-2 text-gray-600 dark:text-gray-400">
+          My brother and I doing a synchronized back flip!
+        </p>
       </div>
 
       <div>
         <h2 className="text-3xl font-semibold text-blue-400 dark:text-blue-200">
           Learning
         </h2>
-        <p className="text-2xl">I enjoy fitness and healthy lifestyle</p>
+        <p className="text-2xl">
+          I have a deep passion for learning and exploring new skills, whether
+          in fitness, technology, or personal growth. I enjoy pushing my limits
+          and embracing challenges that expand my knowledge and abilities.
+        </p>
       </div>
 
       <div>
         <h2 className="text-3xl font-semibold text-blue-400 dark:text-blue-200">
           Other Interests
         </h2>
-        <p className="text-2xl">I enjoy fitness and healthy lifestyle</p>
+        <p className="text-2xl">
+          I love reading thought-provoking books, hiking nature, and EDM and
+          Hardstyle music. I also enjoy playing strategy games and video games.
+        </p>
       </div>
     </div>
   );
