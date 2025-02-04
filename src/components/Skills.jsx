@@ -1,6 +1,9 @@
 export default function Skills() {
   return (
-    <div className="flex flex-col justify-center items-center lg:p-10 p-6 w-full tech-section">
+    <div
+      id="skills"
+      className="flex flex-col justify-center items-center lg:p-10 p-6 w-full tech-section"
+    >
       <div className="flex flex-col justify-center gap-6 max-w-6xl">
         <h2 className="text-4xl font-semibold">Skills and Technologies</h2>
 

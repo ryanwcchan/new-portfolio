@@ -56,8 +56,8 @@ export default function Navbar() {
       {/* Desktop menu */}
       <div className="items-center gap-4 hidden md:flex">
         <ul className="flex gap-6 text-4xl">
-          <a href="#hero">
-            <li className="underline-animation">Home</li>
+          <a href="#skills">
+            <li className="underline-animation">Skills</li>
           </a>
           <a href="#projects">
             <li className="underline-animation">Projects</li>
@@ -106,8 +106,8 @@ export default function Navbar() {
         </div>
         <div className="flex flex-col gap-4 p-10">
           <ul className="flex flex-col gap-6 text-4xl">
-            <a href="#hero">
-              <li className="underline-animation">Home</li>
+            <a href="#skills">
+              <li className="underline-animation">Skills</li>
             </a>
             <a href="#projects">
               <li className="underline-animation">Projects</li>
