@@ -10,16 +10,20 @@ export default function Interests() {
         <h2 className="text-3xl font-semibold text-blue-400 dark:text-blue-200">
           Health & Wellness
         </h2>
-        <p className="text-2xl">
+        <p className="text-2xl pb-4">
           I enjoy strength training, calisthenics, and cardio. I challenge
           myself by learning new movements through continuous practice, aiming
           to improve my mobility, strength, and endurance.
         </p>
-        <video className="pt-4" controls preload="metadata" loading="lazy">
-          <source src="FLIX3599.webm" type="video/webm" />
-          <source src="FLIX3599.MP4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <iframe
+          className="w-full aspect-video"
+          src="https://www.youtube.com/embed/yMr2wRAnnpo"
+          title="Synchronized backflip with my brother"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
         <p className="text-2xl py-2 text-gray-600 dark:text-gray-400">
           My brother and I doing a synchronized back flip!
         </p>
