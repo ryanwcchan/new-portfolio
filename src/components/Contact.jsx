@@ -5,7 +5,7 @@ function Card({ link, text, icon, subtext }) {
     <div className="flex flex-col justify-center items-center">
       <div
         className="flex flex-col justify-center items-center gap-4 p-5 cursor-pointer
-        bg-blue-200 w-64 rounded-lg hover:bg-blue-300 dark:hover:bg-gray-700"
+        bg-blue-200 dark:bg-gray-600 w-64 rounded-lg hover:bg-blue-300 dark:hover:bg-gray-700"
         onClick={() => window.open(link, "_blank")}
       >
         <div className="flex justify-center items-center gap-4">
@@ -14,7 +14,7 @@ function Card({ link, text, icon, subtext }) {
         </div>
       </div>
       {subtext && (
-        <p className="text-2xl bg-blue-100 dark:bg-blue-600 border-2 border-blue-100 px-2 pb-2 rounded-b-lg translate-y-[-4px]">
+        <p className="text-2xl bg-blue-100 dark:bg-blue-600 dark:border-gray-600 border-t-0 border-2 border-blue-100 px-2 pb-2 rounded-b-lg translate-y-[-5px]">
           {subtext}
         </p>
       )}

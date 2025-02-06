@@ -3,9 +3,6 @@ export default function Intro() {
     <div className="flex flex-col justify-center items-center space-y-10 w-full min-h-screen intro-section">
       {/* Intro section */}
       <div className="flex flex-col justify-center items-center gap-10 max-w-6xl">
-        {/* <h1 className="text-5xl font-semibold text-center">
-          Full-Stack Web Developer
-        </h1> */}
         <div className="flex flex-col lg:flex-row justify-center items-center gap-6 px-10">
           <img
             src="profile-picture-cropped.jpeg"
@@ -21,7 +18,7 @@ export default function Intro() {
             I&apos;m Ryan, a self-taught full-stack web developer from{" "}
             <span className="text-red-600">Toronto, Canada</span> who is
             passionate about building web applications, solving problems and
-            continuously learning new things.
+            learning new things.
           </p>
         </div>
       </div>

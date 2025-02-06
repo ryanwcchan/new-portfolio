@@ -15,8 +15,10 @@ export default function Interests() {
           myself by learning new movements through continuous practice, aiming
           to improve my mobility, strength, and endurance.
         </p>
-        <video className="pt-4" controls>
-          <source src="FLIX3599.MP4" />
+        <video className="pt-4" controls preload="metadata" loading="lazy">
+          <source src="FLIX3599.webm" type="video/webm" />
+          <source src="FLIX3599.MP4" type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
         <p className="text-2xl py-2 text-gray-600 dark:text-gray-400">
           My brother and I doing a synchronized back flip!
@@ -39,8 +41,8 @@ export default function Interests() {
           Other Interests
         </h2>
         <p className="text-2xl">
-          I love reading thought-provoking books, hiking nature, and EDM and
-          Hardstyle music. I also enjoy playing strategy games and video games.
+          I love reading thought-provoking books, hiking, and EDM and Hardstyle
+          music. I also enjoy playing strategy games and video games.
         </p>
       </div>
     </div>

@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between p-10 fixed w-full top-0 z-10 navbar">
       <div className="flex items-center gap-4">
-        <Link to={"/"}>
+        <a href="#hero">
           <div className="border-2 border-white dark:border-800">
             <img
               src="logo-cropped.png"
@@ -45,12 +45,12 @@ export default function Navbar() {
               className="w-10 h-10 object-cover"
             />
           </div>
-        </Link>
-        <Link to={"/"}>
+        </a>
+        <a href="#hero">
           <div className="text-4xl font-bold underline-animation">
             Ryan Chan
           </div>
-        </Link>
+        </a>
       </div>
 
       {/* Desktop menu */}
