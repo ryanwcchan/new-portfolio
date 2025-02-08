@@ -45,8 +45,8 @@ export default function Interests() {
           Other Interests
         </h2>
         <p className="text-2xl">
-          I love reading thought-provoking books, hiking, and EDM and Hardstyle
-          music. I also enjoy playing strategy games and video games.
+          I love reading thought-provoking books, hiking, EDM music, martial
+          arts, and cinematography.
         </p>
       </div>
     </div>
